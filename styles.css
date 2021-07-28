@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:monospace;
+    margin: 30px;
+}
+
+#headercontainer{
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+ justify-content: center;
+ margin-bottom: 50px;
+}
+#header{
+    text-align: center;
+}
+#title{
+    font-size: 32px;
+    font-weight: bolder;
+}
+#description{
+    font-style: oblique;
+}
+#legend{
+    margin-left: 50px;
+    background-color: white;
+}
+#legend svg{
+    align-items: center;
+}
+#map{
+    margin: 0 auto;
+    justify-content: center;
+    background-color:white;
+}
+.states {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+  }
+  #tooltip{
+      position: absolute;
+      background-color: rgb(139, 170, 182);
+      padding: 5px;
+      text-align: center;
+      border-radius: 5px;
+      width: 120px;
+      height: 30px;
+  }
+#footer{
+    font-size: 15px;
+    text-align: end;
+}
